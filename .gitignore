@@ -1,0 +1,37 @@
+# Gradle build
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# OSファイル
+.DS_Store
+Thumbs.db
+
+# Kotlin/Java
+*.class
+*.jar
+*.war
+*.ear
+
+# ログ・キャッシュ
+*.log
+*.tmp
+*.swp
+
+# gRPC / Protobuf
+build/generated/
+
+# IDE・ツール設定
+.vscode/
+*.ipr
+*.bak
+*.old
+
+# プロジェクト個別
+application.yml
+docker-compose.yml
